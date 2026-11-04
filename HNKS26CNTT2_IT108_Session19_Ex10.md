@@ -17,12 +17,14 @@ Mã OTP đại diện cho yếu tố thứ hai: Something You Have.
 - Hoạt động thuần túy trên phần cứng thiết bị, hoàn toàn không cần kết nối internet hay sóng di động nên vẫn chạy chính xác khi bật Chế độ Máy bay.
 ## Phần 2: Lập bảng So sánh Trade-off & Ra quyết định
 3. Bảng so sánh SMS OTP và Autheticater TOTP
+
 |Tiêu chí đánh giá|Giải pháp 1: SMS OTP|Giải pháp 2: TOTP Authenticator|
 |:--|:--|:--|
 |`1. Khả năng chống tấn công SIM Swapping & Nghe lén viễn thông SS7`|**Kém**: Dễ bị nghe lén hoặc chiếm đoạt số điện thoại|**Tuyệt đối**: Khóa bí mật lưu an toàn trong thiết bị|
 |`2. Sẵn sàng khi Offline / Nước ngoài`|**Kém**: Phụ thuộc sóng nhà mạng|**Tuyệt đối**: Hoạt động 100% ngoại tuyến (Offline)|
 |`3. Tiện dụng & Chi phí`|Quen thuộc nhưng tốn kém phí viễn thông cho doanh nghiệp|Miễn phí 100%, thao tác mở app quét mã nhanh chóng|
 |`4. Rủi ro khi mất điện thoại`|Lấy lại qua làm lại SIM, nhưng nguy cơ trộm SIM cao|Cần dùng Mã Khôi phục (Backup Codes) hoặc Cloud Sync|
+
 4. Kết luận lựa chọn
 -Lựa chọn: Giải pháp 2 (TOTP Authenticator).
 
